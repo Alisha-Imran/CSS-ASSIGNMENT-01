@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    overflow: hidden;
+}
+
+.parent{
+    
+   max-width: 100vw;
+   height: 100vh;
+   background-color: black;
+   font-size: 0;
+   }
+
+
+
+.sidebar {
+    height: 100%;
+    width: 23%;
+    background-color: cadetblue;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+
+
+
+}
+
+.profile-container {
+    margin-bottom: 30px;
+    display: block;
+
+
+
+
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 40%;
+    border-radius: 50%;
+    border: 10px solid black;
+    outline: 15px solid black;
+    outline-offset: 10px;
+}
+
+.sidebar-title {
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.588);
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+.sidebar a:hover {
+    color:rgb(13, 11, 11)
+
+
+
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+
+
+
+}
+.nav-links li{
+    margin-bottom: 20px;
+
+}
+.nav-links a{
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 23%;
+    height: 100vh;
+    width: 77%;
+    background-color:black;
+    padding: 60px 80px;
+    overflow-y: scroll;
+    
+}
+.section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 80px 0px;
+    display: block;
+    
+}
+
+
+
+.section-breaker {
+    border: 0;
+    border-top: 1px solid lightgrey;
+    margin: 0;
+    width: 100%;
+
+}
+.main-heading {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    line-height: 1.1;
+
+}
+.email-link {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: cadetblue;
+}
+
+
+.text-chocolate {
+    color: cadetblue;
+
+
+
+}
+.sub-heading {
+    font-size: 20px;
+    text-transform:uppercase;
+    color: cadetblue;
+    margin-top: 10px;
+    
+}
+ #email .sub-heading {
+    text-transform: lowercase;
+}
+.description {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    line-height: 1.6;
+
+}
+.icons-container a{
+    margin-top: 35px;
+    text-decoration: none;
+    color: white;
+
+}
+.circle-badge {
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    width: 45px;
+   height: 45px;
+   background-color:gray;
+    font-size: 50px;
+    margin-right: 15px;
+    font-size: 16px;
+    color: white;
+    border-radius: 50%;
+}
+.circle-badge:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+
+
+}
+    
+
+
+
+
+.section-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.resume-item {
+    margin-bottom: 35PX;
+    position: relative;
+    clear: both;
+}
+
+.resume-item h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color:cadetblue;
+
+}
+.resume-item h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    margin: 5px 0 10px 0;
+}
+.date-right {
+    float: right;
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.company-name {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: gray;
+    margin: 5px 0 10px 0;
+
+
+
+}
+
+.skills-icon-row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+}
+.tech-icon {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 22px;
+    margin-bottom: 20px;
+    filter: grayscale(100%) brightness(40%);
+
+}
+.skills-sub {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: cadetblue;
+    margin: 25px 0 15px 0;
+    font-weight: bold;
+}
+.bullet-list {
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+    line-height: 2.2;
+}
+.tick-color {
+    color: cadetblue;
+    font-weight: bold;
+    margin-right: 8px;
+
+
+
+}
+
+#interests .description{
+    margin-bottom: 20px;
+        color: white;
+
+}
+#interests-heading {
+    color: cadetblue;
+
+
+}
+
+
+#awards {
+    padding: 20px 0;
+
+
+
+}
+.trophy-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+.trophy-list li{
+    font-size: 16px;
+    color:white;
+    line-height: 2.4;
+    margin-bottom: 12px;
+}
+.trophy-list li strong {
+    color: cadetblue;
+    font-weight: bold;
+}
