@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     font-family: Arial, sans-serif;
@@ -15,6 +16,7 @@ body {
    height: 100vh;
    background-color: black;
    font-size: 0;
+   display: flex;
    }
 
 
@@ -26,10 +28,6 @@ body {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-
-
-
-
 }
 
 .profile-container {
@@ -77,26 +75,21 @@ body {
     margin-bottom: 20px;
 
 }
-.nav-links a{
+.nav-links a {
     color: wheat;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
 }
-
-
 .main {
-    position: absolute;
-    top: 0;
-    left: 23%;
     height: 100vh;
     width: 77%;
-    background-color:black;
+    background-color: black;
     padding: 60px 80px;
     overflow-y: scroll;
-    
 }
+
 .section {
     min-height: 100vh;
     width: 100%;
@@ -177,12 +170,7 @@ body {
 
 
 }
-    
-
-
-
-
-.section-title {
+    .section-title {
     font-size: 36px;
     text-transform: uppercase;
     color: white;
@@ -191,8 +179,6 @@ body {
 }
 .resume-item {
     margin-bottom: 35PX;
-    position: relative;
-    clear: both;
 }
 
 .resume-item h3 {
