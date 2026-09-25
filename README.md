@@ -1,4 +1,4 @@
-# Personal Portfolio Website - CSS Assignment 01
+# Personal Portfolio Website -CSS Assignment 01
 
 Welcome to my first official Front-End Web Development assignment repository. This project is a single-page responsive portfolio website built completely from scratch using semantic layout architectures.
 
